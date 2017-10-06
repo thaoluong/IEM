@@ -5,9 +5,7 @@
     <classes>
       <class name="Tests.Login">
         <methods>
-          <include name="AfterMethod"/>
           <include name="BeforeMethod"/>
-          <include name="Unexisted_acc"/>
         </methods>
       </class> <!-- Tests.Login -->
     </classes>
