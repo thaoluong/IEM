@@ -5,9 +5,14 @@
     <classes>
       <class name="Tests.Login">
         <methods>
+          <include name="Blank_pw"/>
           <include name="AfterMethod"/>
+          <include name="Blank_acc"/>
           <include name="BeforeMethod"/>
+          <include name="Blank_acc_pw"/>
+          <include name="LoginSuccess"/>
           <include name="Unexisted_acc"/>
+          <include name="Invalid_pw"/>
         </methods>
       </class> <!-- Tests.Login -->
     </classes>
