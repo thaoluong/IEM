@@ -87,8 +87,8 @@ public class Login_Try {
 		Thread.sleep(10000);
 		System.out.println(driver.getTitle());
 		System.out.println(home.getUsername());
-		// home.userlist();
-		// home.user();
+		 home.userlist();
+		 home.user();
 	}
 
 	@AfterMethod
